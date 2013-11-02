@@ -1,5 +1,4 @@
-""" cardGame.py
-    basic card game framework
+""" basic card game framework
     keeps track of card locations for as many hands as needed
 """
 from random import *
