@@ -37,7 +37,10 @@ def showDeck():
 
 def assignCard(hand):
   rand_num = randrange(0, NUMCARDS)
-  cardLoc[rand_num] = playerName[hand]
+  if cardLoc[rand_num] == "deck":
+      cardLoc[rand_num] = playerName[hand]
+  else :
+      assignCard(hand)
 
 def showHand(hand):
   print "Displaying ", playerName[hand],"hand:"
