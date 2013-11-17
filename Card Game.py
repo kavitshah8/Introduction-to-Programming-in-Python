@@ -49,4 +49,8 @@ def showHand(hand):
         print card[num]
 
 if __name__ == "__main__":
+<<<<<<< HEAD
   main()
+=======
+  main()
+>>>>>>> 525eb31be5249e2012db402d7426d936f02f7c85
